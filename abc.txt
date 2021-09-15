@@ -1,0 +1,9 @@
+The Scheduler is responsible for allocating resources
+to the various running applications subject to familiar
+constraints of capacities, queues etc. The Scheduler is
+pure scheduler in the sense that it performs no monitoring
+or tracking of status for the application. Also, it offers
+no guarantees about restarting failed tasks either due to 
+application failure or hardware failures. The Scheduler 
+performs its scheduling function based on the resource
+requirements of the applications;
